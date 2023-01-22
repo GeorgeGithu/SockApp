@@ -1,0 +1,89 @@
+
+.mainModel {
+    width: 450px;
+    height: 550px;
+    margin-left: 950px;
+    margin-top: 50px;
+    position: absolute;
+}
+
+.crewModel {
+    width: 350px;
+    height: 350px;
+    margin-left: 50px;
+    margin-top: 650px;
+    
+    position: absolute;
+    background-color: rgba(53, 75, 109, 0.949);
+    border-radius: 1px 50px 1px 50px;
+}
+
+.crewModel h3 {
+    color: rgb(113, 206, 237);
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute; 
+    padding-left: 25px;
+    top: 35px;   
+}
+
+.midModel {
+    width: 350px;
+    height: 350px;
+    margin-left: 585px;
+    margin-top: 650px;
+    position: absolute;
+    border-radius: 50px 50px 1px 1px;
+    background-color: rgba(53, 75, 109, 0.949);
+}
+.midModel h3 {
+    color: rgb(113, 206, 237);
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute; 
+    padding-left: 25px;
+    top: 35px;
+} 
+.ankleModel {
+    width: 350px;
+    height: 350px;
+    margin-left: 1100px;
+    margin-top: 650px;
+    position: absolute;
+    background-color: rgba(53, 75, 109, 0.949);
+    border-radius: 50px 1px 50px 1px;
+}
+.ankleModelTxt {
+    color: rgb(113, 206, 237);
+    font-weight: 700;
+    font-size: 1.5rem;
+    position: absolute; 
+    padding-left: 25px;
+    top: 35px;
+} 
+.mainBtn {
+    width: 150px;
+    height: 120px;
+    background-color: rgba(53, 75, 109, 0.949);
+    margin-left: 210px;
+    margin-top: 360px;
+    border-radius: 15px;
+    position: absolute;
+    text-align: center;
+    
+}
+.mainBtnTxt {
+    color: rgb(113, 206, 237);
+    font-size: 1.8rem;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 15px;
+}
+.mainTxt {
+    font-size: 2rem;
+    color: rgba(53, 75, 109, 0.949);
+    position: absolute;
+    margin-left: 100px;
+    text-align: center;
+}
