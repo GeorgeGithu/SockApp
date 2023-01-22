@@ -1,0 +1,14 @@
+
+.midApp {
+  width: relative;
+  height: 610px;
+  padding-left: 780px;
+  
+  
+}
+
+.midPicker {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
