@@ -1,0 +1,19 @@
+
+.ankleApp {
+  width: relative;
+  height: 610px;
+  padding-left: 780px;
+
+}
+
+.anklePicker {
+  position: absolute;
+  left: 100px;
+  top: 200px;
+}
+
+.instructionSrc {
+  width: 200px;
+  height: 100px;
+  position: absolute;
+}  
