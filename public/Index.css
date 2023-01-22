@@ -1,0 +1,96 @@
+
+#root {
+    width: 100%;
+    height: 550px;
+    padding-top: 100px;
+}
+
+body {
+    background-color: rgb(113, 206, 237);
+}
+
+.nav {
+    position: fixed;
+    z-index: 9;
+}
+
+.logoimg {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid rgba(53, 75, 109, 0.949);
+    left: 150px;
+}
+
+.companyname {
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    position: relative;
+    bottom: 20px;
+    color: rgb(22, 60, 109);
+    font-size: 1.3rem;
+}
+
+.navsock {
+    left: 500px;
+}
+
+.navdiv {
+    display: inline-block;
+    position: relative;
+}
+
+.navdiv-gallery {
+    display: inline-block;
+    position: relative;
+}
+
+.navgallery {
+    left: 600px;
+}
+
+.crudPage {
+    left: 700px;
+}
+
+.dropdown-content {
+    width: 100px;
+    display: none;
+    position: absolute;
+    margin-left: 485px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {color: #ddd;}
+
+.navdiv:hover .dropdown-content {display: block;}
+
+.dropdown-content-gallery {
+    width: 200px;
+    display: none;
+    position: absolute;
+    margin-left: 585px;
+    z-index: 3;
+}
+
+.dropdown-content-gallery a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content-gallery a:hover {color: #ddd;}
+
+.navdiv-gallery:hover .dropdown-content-gallery {display: block;}
+
